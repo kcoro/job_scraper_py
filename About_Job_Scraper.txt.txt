@@ -1,0 +1,29 @@
+####################
+###  JobScraper  ###
+####################
+
+# Use existing API's, and web scraping when required, to collect
+# job postings from major job boards, Indeed, Monster etc.. and more
+# targeted developer sites such as Stack Overflow. 
+
+#################################
+#### The State of API Issues ####
+#################################
+
+### StackOverflow Jobs ###
+# No api for the jobs portal
+# Web Scraping is only option
+
+#### GlassDoor ###
+# Registration required for "partners", primarily used for monetization
+# WebScraping / botting is caught by default
+# Use Selenium to "fake" being a human client
+
+### Indeed ###
+# Requires Publisher Account to use API
+# "Client Library" for accessing API: https://github.com/indeedlabs/indeed-python
+# Web Scraping may be viable without Selenium
+
+### Monster ###
+# Requires partner registration
+# Web Scraping is viable, however requires navigating add'l links for each job to get description
