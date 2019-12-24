@@ -16,13 +16,19 @@
 
 #### GlassDoor ###
 # Registration required for "partners", primarily used for monetization
+# Registration is non-existent for a normal account, must require an employer account!?
 # WebScraping / botting is caught by default
 # Use Selenium to "fake" being a human client
 
 ### Indeed ###
-# Requires Publisher Account to use API
+# Requires Publisher Account to use API, no guarantee of acceptance without a business with web traffic
 # "Client Library" for accessing API: https://github.com/indeedlabs/indeed-python
 # Web Scraping may be viable without Selenium
+
+### GitHub Jobs ###
+# Almost Zero Jobs Listed! GFG
+# Public API Docs: https://jobs.github.com/api
+# Public access to API's, no registration required
 
 ### Monster ###
 # Requires partner registration
