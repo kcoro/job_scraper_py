@@ -26,10 +26,10 @@
 # Web Scraping may be viable without Selenium
 
 ### GitHub Jobs ###
-# Almost Zero Jobs Listed! GFG
+# Almost Zero Jobs Listed!
 # Public API Docs: https://jobs.github.com/api
 # Public access to API's, no registration required
 
 ### Monster ###
 # Requires partner registration
-# Web Scraping is viable, however requires navigating add'l links for each job to get description
+# Web Scraping is viable
