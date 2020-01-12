@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 headers = "Insert Fake User agent Here"
-# Job Site URLs, use requests to get html from each URL.
+# Job Site default URLs, use requests to get html from each URL.
 # Pass requests output to BeautifulSoup for parsing
 monsterUrl = "https://www.monster.com/jobs/search/?q=Software+Engineer&where=North-Carolina"
 stackOverflowUrl = "https://stackoverflow.com/jobs?q=Software+Engineer&l=North+Carolina%2C+USA&d=20&u=Miles"
@@ -16,8 +17,10 @@ userJobTitle = userJobTitle.replace(" ","+")
 print("Please enter desired location:")
 userLocation = input()
 userLocation = userLocation.replace(" ","+")
+print("Please enter file name to output as csv file:")
+userFileName = input()
 
-# Update job sites base url with user input query parameters
+# Update job sites default url with user input query parameters
 monsterUrl = "https://www.monster.com/jobs/search/?q="+userJobTitle+"&where="+userLocation
 stackOverflowUrl = "https://stackoverflow.com/jobs?q="+userJobTitle+"&l="+userLocation+"%2C+USA&d=20&u=Miles"
 indeedUrl = "https://www.indeed.com/jobs?q="+userJobTitle+"&l="+userLocation+"&explvl=entry_level"
@@ -31,6 +34,7 @@ monsterSoup = BeautifulSoup(monsterPage.content, "html.parser")
 stackOverflowSoup = BeautifulSoup(stackOverflowPage.content, "html.parser")
 indeedSoup = BeautifulSoup(indeedPage.content, "html.parser")
 
+
 # Validate each jobsite host responds with 200 ok.
 def validateSite(sitePage):
     if (sitePage.status_code != 200):
@@ -39,9 +43,18 @@ def validateSite(sitePage):
     else:
         print(sitePage.status_code)
 
+
 validateSite(monsterPage)
 validateSite(stackOverflowPage)
 validateSite(indeedPage)
+
+
+# Output job site results to csv file
+def outputToCSV(jobTitle, jobCompany, jobLocation, jobLink):
+    with open('scraped_jobs.csv', 'a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([jobTitle, jobCompany, jobLocation, jobLink])
+
 
 # Loop over jobs on Monster's page
 for job in monsterSoup.find_all("div", class_="flex-row"):
@@ -70,6 +83,9 @@ for job in monsterSoup.find_all("div", class_="flex-row"):
     print(jobLocation)
     print(jobLink)
     print("\n")
+    # Adds job site output to csv file
+    outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
+
 
 # Loop over jobs on Indeed's page
 for job in indeedSoup.find_all("div", class_="jobsearch-SerpJobCard"):
@@ -90,13 +106,17 @@ for job in indeedSoup.find_all("div", class_="jobsearch-SerpJobCard"):
     jobLink = job.find("a", class_="jobtitle")["href"]
     # Strip "/rc/clk" from href link on indeed
     jobLink = jobLink[7:]
+    jobLink = "https://www.indeed.com/viewjob"+jobLink
 
     # Print Job title, and link to job desc
     print(jobTitle)
     print(jobCompany)
     print(jobLocation)
-    print("https://www.indeed.com/viewjob"+jobLink)
+    print(jobLink)
     print("\n")
+    # Adds job site output to csv file
+    outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
+
 
 # Loop over jobs on StackOverflow jobs page
 for job in stackOverflowSoup.find_all("div", class_="-job"):
@@ -118,11 +138,14 @@ for job in stackOverflowSoup.find_all("div", class_="-job"):
     jobLink = job.find("a")["href"]
     # Strip lead and trail whitespace
     jobLink = jobLink.strip()
+    jobLink = "https://stackoverflow.com"+jobLink
 
     # Prints job title, company, location and link to job
     print(jobTitle)
     print(jobCompany)
     print(jobLocation)
-    print("https://stackoverflow.com"+jobLink)
+    print(jobLink)
     print("\n")
+    # Adds job site output to csv file
+    outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
 
