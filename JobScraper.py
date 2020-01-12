@@ -7,14 +7,6 @@ headers = "Insert Fake User agent Here"
 monsterUrl = "https://www.monster.com/jobs/search/?q=Software+Engineer&where=North-Carolina"
 stackOverflowUrl = "https://stackoverflow.com/jobs?q=Software+Engineer&l=North+Carolina%2C+USA&d=20&u=Miles"
 indeedUrl = "https://www.indeed.com/jobs?q=software+engineer&l=Raleigh,+NC&explvl=entry_level"
-# Use requests library to make get request to each websites URL
-monsterPage = requests.get(monsterUrl)
-stackOverflowPage = requests.get(stackOverflowUrl)
-indeedPage = requests.get(indeedUrl)
-# Use bs4 to parse each html page response
-monsterSoup = BeautifulSoup(monsterPage.content, "html.parser")
-stackOverflowSoup = BeautifulSoup(stackOverflowPage.content, "html.parser")
-indeedSoup = BeautifulSoup(indeedPage.content, "html.parser")
 
 # Will prompt user to enter desired title and location
 # Remove spaces in users input with char's needed for search query
@@ -29,6 +21,15 @@ userLocation = userLocation.replace(" ","+")
 monsterUrl = "https://www.monster.com/jobs/search/?q="+userJobTitle+"&where="+userLocation
 stackOverflowUrl = "https://stackoverflow.com/jobs?q="+userJobTitle+"&l="+userLocation+"%2C+USA&d=20&u=Miles"
 indeedUrl = "https://www.indeed.com/jobs?q="+userJobTitle+"&l="+userLocation+"&explvl=entry_level"
+
+# Use requests library to make get request to each websites URL
+monsterPage = requests.get(monsterUrl)
+stackOverflowPage = requests.get(stackOverflowUrl)
+indeedPage = requests.get(indeedUrl)
+# Use bs4 to parse each html page response
+monsterSoup = BeautifulSoup(monsterPage.content, "html.parser")
+stackOverflowSoup = BeautifulSoup(stackOverflowPage.content, "html.parser")
+indeedSoup = BeautifulSoup(indeedPage.content, "html.parser")
 
 # Validate each jobsite host responds with 200 ok.
 def validateSite(sitePage):
