@@ -51,7 +51,7 @@ validateSite(indeedPage)
 
 # Output job site results to csv file
 def outputToCSV(jobTitle, jobCompany, jobLocation, jobLink):
-    with open('scraped_jobs.csv', 'a', newline='') as file:
+    with open(userFileName, 'a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([jobTitle, jobCompany, jobLocation, jobLink])
 
@@ -121,7 +121,7 @@ for job in indeedSoup.find_all("div", class_="jobsearch-SerpJobCard"):
 # Loop over jobs on StackOverflow jobs page
 for job in stackOverflowSoup.find_all("div", class_="-job"):
     # Each job title
-    jobTitle = job.find("a", class_="job-link")
+    jobTitle = job.find("a", class_="s-link")
     # Make object a string and strip lead and trail white space
     jobTitle = jobTitle.text.strip()
     # Gets the jobs company name
@@ -135,7 +135,7 @@ for job in stackOverflowSoup.find_all("div", class_="-job"):
     # Turn object into string and strip lead and trail whitespace
     jobLocation = jobLocation.text.strip()
     # Link to job info
-    jobLink = job.find("a")["href"]
+    jobLink = job.find("a", class_="s-link")["href"]
     # Strip lead and trail whitespace
     jobLink = jobLink.strip()
     jobLink = "https://stackoverflow.com"+jobLink
