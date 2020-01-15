@@ -1,8 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
+import json
 
 headers = "Insert Fake User agent Here"
+listAllJobs = []
 # Job Site default URLs, use requests to get html from each URL.
 # Pass requests output to BeautifulSoup for parsing
 monsterUrl = "https://www.monster.com/jobs/search/?q=Software+Engineer&where=North-Carolina"
@@ -63,28 +65,23 @@ for job in monsterSoup.find_all("div", class_="flex-row"):
     # Make object a string and strip lead and trail white space
     jobTitle = jobTitle.text.strip()
     # Gets the jobs company name
-    jobCompany = job.find("div", class_="company")
-    jobCompany = jobCompany.find("span", class_="name")
+    jobCompany = job.find("div", class_="company").find("span", class_="name")
     # Make object into string and strip lead and trail whitespace
     jobCompany = jobCompany.text.strip()
     # Gets jobs location
-    jobLocation = job.find("div", class_="location")
-    jobLocation = jobLocation.find("span", class_="name")
+    jobLocation = job.find("div", class_="location").find("span", class_="name")
     # Turn object into string and strip lead and trail whitespace
-    jobLocation = jobLocation.text.strip()
+    if jobLocation != None:
+        jobLocation = jobLocation.text.strip()
     # Link to job info
     jobLink = job.find("a")["href"]
     # Strip lead and trail whitespace
     jobLink = jobLink.strip()
 
-    # Prints job title, company, location and link to job
-    print(jobTitle)
-    print(jobCompany)
-    print(jobLocation)
-    print(jobLink)
-    print("\n")
     # Adds job site output to csv file
     outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
+    # Appends each jobs output to a list of dictionaries
+    listAllJobs.append({'jobTitle': jobTitle, 'jobCompany': jobCompany, 'jobLocation': jobLocation, 'jobLink': jobLink})
 
 
 # Loop over jobs on Indeed's page
@@ -108,14 +105,10 @@ for job in indeedSoup.find_all("div", class_="jobsearch-SerpJobCard"):
     jobLink = jobLink[7:]
     jobLink = "https://www.indeed.com/viewjob"+jobLink
 
-    # Print Job title, and link to job desc
-    print(jobTitle)
-    print(jobCompany)
-    print(jobLocation)
-    print(jobLink)
-    print("\n")
     # Adds job site output to csv file
     outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
+    # Appends each jobs output to a list of dictionaries
+    listAllJobs.append({'jobTitle': jobTitle, 'jobCompany': jobCompany, 'jobLocation': jobLocation, 'jobLink': jobLink})
 
 
 # Loop over jobs on StackOverflow jobs page
@@ -125,27 +118,31 @@ for job in stackOverflowSoup.find_all("div", class_="-job"):
     # Make object a string and strip lead and trail white space
     jobTitle = jobTitle.text.strip()
     # Gets the jobs company name
-    jobCompany = job.find("h3", class_="fc-black-700 fs-body1 mb4")
-    jobCompany = jobCompany.find("span")
+    jobCompany = job.find("h3", class_="fc-black-700 fs-body1 mb4").find("span")
     # Make object into string and strip lead and trail whitespace
     jobCompany = jobCompany.text.strip()
     # Gets jobs location
-    jobLocation = job.find("h3", class_="fc-black-700 fs-body1 mb4")
-    jobLocation = jobLocation.find("span", class_="fc-black-500")
+    jobLocation = job.find("h3", class_="fc-black-700 fs-body1 mb4").find("span", class_="fc-black-500")
     # Turn object into string and strip lead and trail whitespace
-    jobLocation = jobLocation.text.strip()
+    if jobLocation != None:
+        jobLocation = jobLocation.text.strip()
     # Link to job info
     jobLink = job.find("a", class_="s-link")["href"]
     # Strip lead and trail whitespace
     jobLink = jobLink.strip()
     jobLink = "https://stackoverflow.com"+jobLink
 
-    # Prints job title, company, location and link to job
-    print(jobTitle)
-    print(jobCompany)
-    print(jobLocation)
-    print(jobLink)
-    print("\n")
     # Adds job site output to csv file
     outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
+    # Appends each jobs output to a list of dictionaries
+    listAllJobs.append({'jobTitle': jobTitle, 'jobCompany': jobCompany, 'jobLocation': jobLocation, 'jobLink': jobLink})
 
+
+# Convert python list into json
+jobsJson = json.dumps(listAllJobs, indent=4)
+# Write json to output file
+with open('jobs_as_json.txt', 'w') as outfile:
+    outfile.write(jobsJson)
+
+# Test that json is being created correctly, and jobs are being found correctly
+print(jobsJson)
