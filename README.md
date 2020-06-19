@@ -43,3 +43,7 @@ Enter a name for the output csv file, include .csv extension:
 Please hold, scraping jobs for Software+Engineer in Raleigh+NC
 
 The files Raleigh_Jobs.csv and Raleigh_Jobs_as_json.txt have been created!
+
+
+#### Output Samples are provided
+You can see how output will be generated for CSV as well as json in the files Raleigh_Jobs.csv and Raleigh_Jobs_as_json.txt
