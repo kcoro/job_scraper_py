@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import csv
 import json
 
-headers = "Insert Fake User agent Here"
 listAllJobs = []
 # Job Site default URLs, use requests to get html from each URL.
 # Pass requests output to BeautifulSoup for parsing
@@ -13,13 +12,13 @@ indeedUrl = "https://www.indeed.com/jobs?q=software+engineer&l=Raleigh,+NC&explv
 
 # Will prompt user to enter desired title and location
 # Remove spaces in users input with char's needed for search query
-print("Please enter desired job title:")
+print("Enter desired job title:")
 userJobTitle = input()
-userJobTitle = userJobTitle.replace(" ","+")
-print("Please enter desired location:")
+userJobTitle = userJobTitle.replace(" ","+").replace(",", "");
+print("Enter search location (eg. Raleigh, NC):")
 userLocation = input()
-userLocation = userLocation.replace(" ","+")
-print("Please enter file name to output as csv file:")
+userLocation = userLocation.replace(" ","+").replace(",", "");
+print("Enter a name for the output csv file, include .csv extension:")
 userFileName = input()
 
 # Update job sites default url with user input query parameters
@@ -107,7 +106,7 @@ for job in indeedSoup.find_all("div", class_="jobsearch-SerpJobCard"):
 
     # Adds job site output to csv file
     outputToCSV(jobTitle, jobCompany, jobLocation, jobLink)
-    # Appends each jobs output to a list of dictionaries
+    # Appends each jobs output to a list of dictionaries for conversion to json
     listAllJobs.append({'jobTitle': jobTitle, 'jobCompany': jobCompany, 'jobLocation': jobLocation, 'jobLink': jobLink})
 
 
@@ -140,9 +139,11 @@ for job in stackOverflowSoup.find_all("div", class_="-job"):
 
 # Convert python list into json
 jobsJson = json.dumps(listAllJobs, indent=4)
+jsonFileName = userFileName.replace(".csv", "") + "_as_json.txt"
 # Write json to output file
-with open('jobs_as_json.txt', 'w') as outfile:
+with open(jsonFileName, 'w') as outfile:
     outfile.write(jobsJson)
 
-# Test that json is being created correctly, and jobs are being found correctly
+# Output to console to check that json is being created, 
+# and jobs are found correctly
 print(jobsJson)
