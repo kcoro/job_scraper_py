@@ -1,0 +1,350 @@
+[
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "Fidelity TalentSource",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/software-engineer-durham-nc-us-fidelity-talentsource/8fa91953-91d8-4d65-a697-cfb5982afd4a"
+    },
+    {
+        "jobTitle": "Cloud Engineer",
+        "jobCompany": "Next Media",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/cloud-engineer-durham-nc-us-next-media/218288531"
+    },
+    {
+        "jobTitle": "Senior Java Developer",
+        "jobCompany": "CyberCoders",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/senior-java-developer-durham-nc-us-cybercoders/218393847"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "Apex Systems",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/software-engineer-raleigh-nc-us-apex-systems/218196240"
+    },
+    {
+        "jobTitle": "Software Development Engineer in Test (SDET)",
+        "jobCompany": "Diversant LLC",
+        "jobLocation": "Minnetonka, NC",
+        "jobLink": "https://job-openings.monster.com/software-development-engineer-in-test-sdet-minnetonka-nc-us-diversant-llc/217920508"
+    },
+    {
+        "jobTitle": "Lead Games Developer",
+        "jobCompany": "CTG",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/lead-games-developer-raleigh-nc-us-ctg/218243556"
+    },
+    {
+        "jobTitle": "Junior Software Engineer",
+        "jobCompany": "EDI Specialists, Inc.",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/junior-software-engineer-durham-nc-us-edi-specialists-inc/218159418"
+    },
+    {
+        "jobTitle": "Jr. Java Developer",
+        "jobCompany": "Virtusa",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/jr-java-developer-durham-nc-us-virtusa/215702208"
+    },
+    {
+        "jobTitle": "Cloud Development Engineer",
+        "jobCompany": "Eliassen Group",
+        "jobLocation": "Cary, NC",
+        "jobLink": "https://job-openings.monster.com/cloud-development-engineer-cary-nc-us-eliassen-group/218390073"
+    },
+    {
+        "jobTitle": "Web Programmer",
+        "jobCompany": "Softthink Solutions Inc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/web-programmer-raleigh-nc-us-softthink-solutions-inc/217353563"
+    },
+    {
+        "jobTitle": "Software Design Engineer in Test",
+        "jobCompany": "TPA technologies",
+        "jobLocation": "",
+        "jobLink": "https://job-openings.monster.com/software-design-engineer-in-test-us-tpa-technologies/218217997"
+    },
+    {
+        "jobTitle": "IIB / Message Broker and Java Developer",
+        "jobCompany": "Ciber Global",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/iib-message-broker-java-developer-durham-nc-us-ciber-global/218263749"
+    },
+    {
+        "jobTitle": "Data Developer",
+        "jobCompany": "Net 2 Source",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/data-developer-durham-nc-us-net-2-source/217921329"
+    },
+    {
+        "jobTitle": "Software Development Engineer (.Net/C#)",
+        "jobCompany": "The Judge Group",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/software-development-engineer-net-c-raleigh-nc-us-the-judge-group/218068601"
+    },
+    {
+        "jobTitle": "Junior Software Engineer",
+        "jobCompany": "Eclaro",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/junior-software-engineer-durham-nc-us-eclaro/218166391"
+    },
+    {
+        "jobTitle": "Software Engineer - .NET",
+        "jobCompany": "Piper Companies",
+        "jobLocation": "Morrisville, NC",
+        "jobLink": "https://job-openings.monster.com/software-engineer-net-morrisville-nc-us-piper-companies/218119345"
+    },
+    {
+        "jobTitle": "Cybersecurity Software Engineer",
+        "jobCompany": "Randstad Technologies",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/cybersecurity-software-engineer-raleigh-nc-us-randstad-technologies/218127878"
+    },
+    {
+        "jobTitle": "FHIR JAVA Software Engineer",
+        "jobCompany": "Collabera",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/fhir-java-software-engineer-raleigh-nc-us-collabera/218281937"
+    },
+    {
+        "jobTitle": "Principal Engineer/Architect - Full Stack Java",
+        "jobCompany": "Reperio Human Capital",
+        "jobLocation": "Cary, NC",
+        "jobLink": "https://job-openings.monster.com/principal-engineer-architect-full-stack-java-cary-nc-us-reperio-human-capital/218377346"
+    },
+    {
+        "jobTitle": "Big Data Developer",
+        "jobCompany": "Hooks HR Consulting",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/big-data-developer-durham-nc-us-hooks-hr-consulting/6a0d9db5-e43a-43a6-bd2f-dc0a6240c44c"
+    },
+    {
+        "jobTitle": "Java Developer",
+        "jobCompany": "Mastech Digital",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/java-developer-durham-nc-us-mastech-digital/218219734"
+    },
+    {
+        "jobTitle": "FullStack Python Developer",
+        "jobCompany": "Company Confidential",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/fullstack-python-developer-raleigh-nc-us/217970363"
+    },
+    {
+        "jobTitle": "Mobile Developer: Positions in Raleigh and Atlanta",
+        "jobCompany": "Accentuate Staffing",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/mobile-developer-positions-in-raleigh-atlanta-raleigh-nc-us-accentuate-staffing/310fcd0e-fe19-4637-919f-9f7d8713e537"
+    },
+    {
+        "jobTitle": "Data Engineer (Spark, Python, Java, NOSQL)",
+        "jobCompany": "Disys - McLean",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://job-openings.monster.com/data-engineer-spark-python-java-nosql-raleigh-nc-us-disys-mclean/218067985"
+    },
+    {
+        "jobTitle": "Android Engineer (Kotlin / Java)",
+        "jobCompany": "Hays",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://job-openings.monster.com/android-engineer-kotlin-java-durham-nc-us-hays/218159935"
+    },
+    {
+        "jobTitle": "Sr Java Developer (Remote)",
+        "jobCompany": "Nava Software Solutions LLC",
+        "jobLocation": "Morrisville, NC",
+        "jobLink": "https://job-openings.monster.com/sr-java-developer-remote-morrisville-nc-us-nava-software-solutions-llc/217944567"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "TSI Healthcare",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0DSTd3QUyhKsdv0gyioWqiqOWuvLOcAKSSFG5k4qIBdPfHBQVo-WjzANETG5jZl4tLEh6h8HB6Tpml7T-FhX3QOM0WOJ8sNGhiRvKYGMwJAiU66WgIjSpgLvrDaIwNIADRhgmFx6rZb_inzjHwGf6ogHvhqUTZMFITHpUZqj6pVo5eaBRzwSLyK7V3qn9M3m0SJlDmD8qi1uUVAWZTvyETjsG1reyLXxGRiyHonnnacR5Rl1JthLnaloZ2lLVYzkfOU9QWrIsfiLVerEPNWSkeCrbf-0RWLqDdTUm_JkiYWH1uLdy0qVWY6M92zTEcLnoUU0SFX8Vy9m55qwv_fWS_UtQKyE2ELd0UbVM0Fe0vKJrnhurZncKXbgXQevS-XEu2oZpMHY2NOoj3Etn1xbqRSxujxUPCrmx5WIAOYqW0ch1v2ZBt6526S6eFxcHWN1IS6UW93VkVSitC98Hipz3lUGKHQFgXUArvNkIojxs8cUZWo7ag66WXqpJboIWShtRdvauhhaTNsqJn6KyybPNMinlzLhEg8OmY=&p=0&fvj=0&vjs=3"
+    },
+    {
+        "jobTitle": "Software Engineer at a YCombinator Backed Gaming Startup (Re...",
+        "jobCompany": "Windwalk Games",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0ARtyC3MTt36nB9NgykAIlnC5zwIrOSL6maT_XjXu2JGuIjg4w7lXe_mhF33T3rpZ3Is32qMZcDE3zfEVWeDsNgtU0aHUE6A-Df-B5vGQMtvimze3twkc0pP6_CHXsStF3d0MXj1ijMwmSl2NtvgJXsJPCYzMqttNYgVwBIOAKo8JP6ZAwnzoQkjvnNxqydaWWKSxtUEZBMaiY7HTRaZ3yJLzMMPricX8U-fH6wsKfjw5pSVqNd0gsIQzt5PX5rU0-YEEm8qJpx1UMjNL0znAf01cTCpdpEZygLShVMur57C6OVrVYO_TiMGS6o_ixRuJ9_lHsmUutIGeBz_AmkDBcpUtwnXlHX3Hm3K49RJt1VgAaaBFZ8XLA55bddua_orvNhF1qgQFyxm7HOTvJAz2oCYaH-Tj-S8FCI71_BRRbMRma4z_LFcC5eFecRiG9KW2DCE6HsmOYX12iC7ybszhcSjrD8CN75Y8RizBhILCU2B3jnxHPiwU6AG_SpjJ-DNjc=&p=1&fvj=1&vjs=3"
+    },
+    {
+        "jobTitle": "Software Engineer ( Oracle, PLSQL, Java API)",
+        "jobCompany": "Fidelity TalentSource",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0AoYXfdOe7El6-Ykny_IbMrQLc_ftZ75MJybi-dJXWXjpPOcRCXVAfLKVO1ncbGEEb_-sjZvkN1Hrbba948fWH1SGlsugPpsbjYExfLPgr8w1igJ1lYYBcRfnAJlk3HeriBPl2osOCm2yBQbmjQvRpn-yhOvOYU_tMclx11FzEZWvaeNCRbiAz1Y23RvPjxDpxmcFK_B49Go_S889Uhl2X9zKZI6Ii7KfJbTPr16t-NcreplT7Bosy8QBudio0GbGqUtDsvv0FiIHWjuzXiCAaargIkMdckUl68FXB1dsXpDz2xQFn_JsYweRFQLP4UdaeeS2aFfKXV2JtfoybOSCtCUbycRzKjjk2q4cTF7qSgOLmgKY3n9xvR6mhW25GztH8ssBxrPiWa6SwRCIhqGlRxNepg3BMZ7aiSk3YFq5O3dD-YfgQKSGM3Wabq5bUu5jZgeq0kh9JtmeT69PHrRePpOUfpms1WOdQqlOtv633ZHQ==&p=2&fvj=0&vjs=3"
+    },
+    {
+        "jobTitle": "Part-Time Programmer",
+        "jobCompany": "Carillon Assisted Living",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0AunSXLzT60gv3QDd4IBDBOJ_P9HHTVtpyCIHGhEQYN7rqb_cUKV2ZvZ0a9rif1dhiJM1UvIJDnYijsXPRDVDtUSrp_1V7rEMsn6un3Q5z5CK28kTzZTRyESn20qCcpSIvYLPjNLvw7KcrWzz_WAS6kkh4flcGZ-GL7bYXn8CNEs9n9vjh94KcLyOtDk135p3paSZLE5i8lpks0u74YHnyWSNbAZGfaUur1hveISvH9DZ0sq01A1PlC_YlySHx8zRzjuGFjjfTpH1J4v3TdLZnxL2fOC-30J9edvTc2BCMQr14LwE0lefU3r-N3rSWEmyhgf6TUpbuuyJCwctT7zXqMlOhc-jbD_TfCljTukZsrxoSvGinSKMyFv7NdvOQEcZxAZrx_9Zvezb5DomQvJwVACULsNuaRFFQP6yTPEj5ZhA0JImdZsVA_8I50g9cZlJKGSpc-6fISo49oSsWvpnwsv2mDNcYvu0M6xdelGcgPD9CYDJICoBBl9WYjFvsiuMX7k5FY4HDKZi3EyzuSl3vQ6tPyEmSJYz5hctec7nVBWPlu9S-77fMDsQzLN6jh-IlitPx3O65UkzrsoM9cYQF2UUdILIasgJzP1shXHvkmVjPzuJbGjgIqbaixbiEir74CWsmGaKUPAvYe1r-MQT-RA0k0D_kuJf-vw5zA9YqI5TuixKhfHCCdG8zr_3j0eeORvOgPpMYgmjjP75V6iIQKPMVQ6iRev4yVO4Af_sQpcfWBlZ7hsNt6&p=3&fvj=0&vjs=3"
+    },
+    {
+        "jobTitle": "Java Middleware Developer",
+        "jobCompany": "Infosys Limited",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0DFi1nmQQWK2fa3N4W3y7EUOEocZkWPqKP_f_xZ7ne8RaqWQ7rFuLilFqrEb_XPBzXitIb9llejROEDjytjp0C0wRgn1MNwfEnmemYYTrUPO8-TN19pNbFRf_wf_7e21WRpf7P7NG24Oyei2jRqHZmmCtOpVZl4EH9Y5f_yVNb7fzhPnzlHDu1HeKCwwsjD8e3QdtXlg19azMcNuLA7QUI93AhTnWrU3EFIyc75xHH7TFm-qRxcF9zPO2oUdEqsHJWSOwp_-N0IywAP4EeL208Q3lK928g1eXNdlWnb5_rNeZq-jCTHpneXfHeYZOjY6TzPtPIlhlMjw8gEaoIZxturj2pR-cEvLJOAiGlh3QTUE7tAm6SKggiOKwD9JrYqmRWq2UPVL6TtVxZ00MZueaSmdM7SMdv4ict-_bzMF72CdZNMLxqpa2CpDJ3z7uDI59CwY-09Ld0kf_8QiBbCl3K7Nmm9EE3nCy_gb_0dSJfxJwkMpHCNa5PmoqdThJll_pMP9kYid6eqjATzNXo8B9RoSntM1iiC8cS4vABouh0pWQ==&p=4&fvj=0&vjs=3"
+    },
+    {
+        "jobTitle": "Entry-Level CSS/HTML/JS Developer (No BA Required!)",
+        "jobCompany": "Merit America",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0BHFztfH3Ui3NBmVPhxZP-gT29DSziW97b4pEUSGPaNY_fgz2hCwWWIIqdPkq1Xa5SVjqN3JOpZPFJdRB-f6MOj90XK-suJ1PDAeDc4lSGD-RzTxkUPWhoNrsMXU3b216XQJ6iwioQp8ZJXPdKR1KkgFPKzT0T8rY0Ye8mxBAjuXvwgXqHDpJVpAoFjXcgLVzQu-QgoOkJEmlx0yFh3kixAzHLOOaupAroJZfjTplG4VS6i4zOlx7jiTlVnpAsxNUSXmOrQ-fQp1Px1Ogx1fjBf4XY8cwHllfHYnuOHaBtVaxKRE3tvOLW_WtHmHUsFeU4NAUZkXMaGB05FN_AGLgk4SSAOZfXh8UE4spzIolx0rn2qhD4JNQ5orWTlPD1GdF_klEBW25x91eZi3ELQdQsE1BnXOdIVxdZmgPmmdavzlyD7cnOsmXQUpybo-tv-_ZXPvjLjoQE6VCVumvnbWT4decZTcAN3fd57GnF8nSATWP5rEUP-q7g3&p=5&fvj=1&vjs=3"
+    },
+    {
+        "jobTitle": "Software customer support engineer",
+        "jobCompany": "OnePacs",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0A7Blyb9Zr_s1Tm0suFlycu5GHtBKPhsgeHTKEDrpIaSrIgbWqn_7hlWXY5nWaRIXR5bXRtSCxcHXfnOAhXSy-Egy8x9RdDEYQSn4CqDgWtIYMectB_g8TpjCNqMQeG5KM8UiSQS-mrSEtuuJi3HEvijzMzFGo0L2-K1q_vufdHchN66THoGSBWvGqIJvNmK8ltpSVmFhHpSP_9heoSZpc8UUxBbYJPDz7jtgS5LrImkSOK9uCPGw4ho-J4FWlEjnRN8QbVoC8WcBe9ZGJFc7xP-pTw-ciCpgqSu7Y5yty3RplaAEBmFEixHEfVbrxNZQzTdRYfNDvi2_ghIMbVVY_hFiEg24h8Ec96EJqIGJJYDEJu8kZa-cit0eIx77WYnKjzQHtVyD04A9SJhEsyQxwj8pWunfKg66jzy-_slpRIOunIECs39QqdBm_N5vm1UZxvEbPUjkb4en8IUdYwMv8b0A1roRJtgAY=&p=6&fvj=1&vjs=3"
+    },
+    {
+        "jobTitle": "Junior Software Engineer",
+        "jobCompany": "CompostNow",
+        "jobLocation": "Raleigh, NC 27603",
+        "jobLink": "https://www.indeed.com/viewjob?jk=ea1bcbf6a51a39d9&fccid=7a37af649172b2bd&vjs=3"
+    },
+    {
+        "jobTitle": "2020030 Software Engineer",
+        "jobCompany": "John Deere",
+        "jobLocation": "Cary, NC 27513",
+        "jobLink": "https://www.indeed.com/viewjob?jk=a899cd98dcd8e8b6&fccid=38eb72d608d80c79&vjs=3"
+    },
+    {
+        "jobTitle": "Associate Software Development Engineer",
+        "jobCompany": "Charles Schwab Inc.",
+        "jobLocation": "Raleigh, NC 27601 (Central area)",
+        "jobLink": "https://www.indeed.com/viewjob?jk=8e5ee327b75dc09d&fccid=3c74eafe288fc8ca&vjs=3"
+    },
+    {
+        "jobTitle": "Junior Software Developer",
+        "jobCompany": "Southern Company",
+        "jobLocation": "Wake Forest, NC 27588",
+        "jobLink": "https://www.indeed.com/viewjob?jk=16e987405e5c6949&fccid=a062342ea4e0a858&vjs=3"
+    },
+    {
+        "jobTitle": "Jr. SQL Database Developer",
+        "jobCompany": "Durham Public Schools",
+        "jobLocation": "Durham, NC 27701 (Cleveland-Holloway area)",
+        "jobLink": "https://www.indeed.com/viewjob?jk=438262493a4f312e&fccid=4c25e81fe40c3ac3&vjs=3"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "TSI Healthcare",
+        "jobLocation": "Chapel Hill, NC 27517",
+        "jobLink": "https://www.indeed.com/viewjob?jk=739f1872aebde98d&fccid=f7ff27636edd1548&vjs=3"
+    },
+    {
+        "jobTitle": "Jr. Front End Developer",
+        "jobCompany": "Three Ships Media",
+        "jobLocation": "Raleigh, NC 27605 (Hillsborough area)",
+        "jobLink": "https://www.indeed.com/viewjob?jk=10f193664d85369b&fccid=82da8767543b1ac2&vjs=3"
+    },
+    {
+        "jobTitle": "Associate Software Developer",
+        "jobCompany": "HCL Americas",
+        "jobLocation": "Wake County, NC",
+        "jobLink": "https://www.indeed.com/viewjob?jk=c34130ef01a3694d&fccid=33fac48d55359688&vjs=3"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "Zaloni Inc",
+        "jobLocation": "Research Triangle Park, NC 27709",
+        "jobLink": "https://www.indeed.com/viewjob?jk=73412a197392337b&fccid=e171fe91dd60d4bd&vjs=3"
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "jobCompany": "Resiliency LLC",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://www.indeed.com/viewjob?jk=22b5c9e85d7a67ff&fccid=7c835f31abef9deb&vjs=3"
+    },
+    {
+        "jobTitle": "Entry Level - Software Developer",
+        "jobCompany": "Smoothstack",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0ChdE_-3s9UeG5xYsqO3th9AddXeBq2OieSfAM8evhI-PZ76-Buf7EcnCv0gKKLndR0YEV2kTxuAD_VKH6HEbZFGsVNkpiitjOp_daSiXpE3Pd_X3qe-bekUwRlgzVovAcCBt0z5yUU5xFBeE38vP8NN1cwM2zQW5_7-qCme8Eqir0YdEZ8ST5yQP-xOvM1dqop0N5zUYGDqYL9AvDPMhqAabu1eqH4XB9eauAQuRf1vN3TJz97zf1qCBZd0G-hUbPQLfZUARK6U-Ik3IFpMOe46Wyu2BrzJDQOor4nsjkFE71bSkj3882Erj-l9InHF8wbzxPSAUG9xj4mEi2F0mEbq06w2h5fvhDS8xRrZ0W-a_Q7UyHc8kQe5wM_HaT9uhp5zBVR6blCCFsz5u_6v1JBVofci1cWlQqBaf_L3BzXV3muEGZKGQMMVwRKLT3TGrd4fosx7sqN8jHszKHtPtaDeCJWTslm_Wc=&p=17&fvj=1&vjs=3"
+    },
+    {
+        "jobTitle": "MS SQL Developer with opportunity for some full stack tasks",
+        "jobCompany": "Financial Symmetry Inc",
+        "jobLocation": null,
+        "jobLink": "https://www.indeed.com/viewjob/clk?mo=r&ad=-6NYlbfkN0BL6nIXLGOQ9ZWeg2g6gWPOkQvLJf1Swq30gNYvjhz97XyHqhzzL2-HlX90HnYBbdOeDfrE5ZzHP9Cv4uW2f8ikUAFMVd8BUWTkIeI0H5BcrqEjFPscK1h0VvBsFbj_ruAvZCe7oro3FxVbweLAfQwstcgysbxBMQvtVtQUE24m890r0WN7SS1DGfyQhppBrjaQ4a7t99rfFAjRvJkZpk29a7JE5ykg84gUIQbX7jA0V7-r57DDFIre5k6FSFz20RG_WQpBNlpR_GEzKlB7-dfYz5LBBRltY1R7JTTpYh3zxCBVBtED8wz1RVeQE2ScoYJj9kI_wat8AWfDFwziiWQ80lHlCr4FnkxFciDaMPcywnIVTCUNvc-L3B0aXMNjYtqlxakd5OKtNkwhX_p8baW8DTJJ6_KwivWqlkkLE5fTjNgULRgRpmsOhIMULCcPC-zsWu3h7a622rWvQ61DWQMslN3xmqGy4a-LBG1jjOjI-s-yExARnZd7&p=18&fvj=1&vjs=3"
+    },
+    {
+        "jobTitle": "Senior UX/UI/CRO Designer & Developer for Digital Optimization (100% Remote)",
+        "jobCompany": "Metabolic Living",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/399051/senior-ux-ui-cro-designer-developer-for-digital-metabolic-living"
+    },
+    {
+        "jobTitle": "React Developer",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/368001/react-developer-hays"
+    },
+    {
+        "jobTitle": "Front End Engineer",
+        "jobCompany": "TRANZACT",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/369683/front-end-engineer-tranzact"
+    },
+    {
+        "jobTitle": "PHP Developer (JavaScript/HTML/and CSS)",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/373020/php-developer-javascript-html-and-css-hays"
+    },
+    {
+        "jobTitle": "Principal Software Engineer",
+        "jobCompany": "Surescripts LLC",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/386827/principal-software-engineer-surescripts-llc"
+    },
+    {
+        "jobTitle": "Platform Engineer - Python or Go",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/363246/platform-engineer-python-or-go-hays"
+    },
+    {
+        "jobTitle": "Full Stack Engineer working with Data Scientists",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Morrisville, NC",
+        "jobLink": "https://stackoverflow.com/jobs/363247/full-stack-engineer-working-with-data-scientists-hays"
+    },
+    {
+        "jobTitle": "Infrastructure Engineer",
+        "jobCompany": "IDS International",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/360317/infrastructure-engineer-ids-international"
+    },
+    {
+        "jobTitle": "Devops Engineer",
+        "jobCompany": "A-Line Staffing Solutions",
+        "jobLocation": "Durham, NC",
+        "jobLink": "https://stackoverflow.com/jobs/285260/devops-engineer-a-line-staffing-solutions"
+    },
+    {
+        "jobTitle": "Senior Web Development ISO",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/398107/senior-web-development-iso-hays"
+    },
+    {
+        "jobTitle": "Senior Web Development ISO",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/392597/senior-web-development-iso-hays"
+    },
+    {
+        "jobTitle": "Site Reliability Engineer SRE",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/363232/site-reliability-engineer-sre-hays"
+    },
+    {
+        "jobTitle": "Sr Full Stack Systems Architect (Angular/Vue.js/React)",
+        "jobCompany": "Hays\r\n                        via\r\nHays plc",
+        "jobLocation": "Raleigh, NC",
+        "jobLink": "https://stackoverflow.com/jobs/373017/sr-full-stack-systems-architect-angular-vuejs-hays"
+    }
+]

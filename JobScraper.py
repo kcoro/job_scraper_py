@@ -35,16 +35,16 @@ monsterSoup = BeautifulSoup(monsterPage.content, "html.parser")
 stackOverflowSoup = BeautifulSoup(stackOverflowPage.content, "html.parser")
 indeedSoup = BeautifulSoup(indeedPage.content, "html.parser")
 
+print(f"Please hold, scraping jobs for {userJobTitle} in {userLocation}")
 
 # Validate each jobsite host responds with 200 ok.
 def validateSite(sitePage):
     if (sitePage.status_code != 200):
         print("Error validating ", sitePage)
         quit
-    else:
-        print(sitePage.status_code)
 
 
+# Validating each jobsites http status response.
 validateSite(monsterPage)
 validateSite(stackOverflowPage)
 validateSite(indeedPage)
@@ -144,6 +144,9 @@ jsonFileName = userFileName.replace(".csv", "") + "_as_json.txt"
 with open(jsonFileName, 'w') as outfile:
     outfile.write(jobsJson)
 
+print(f"The files {userFileName} and {jsonFileName} have been created!")
+
+# Uncomment to see json output in console for testing
 # Output to console to check that json is being created, 
 # and jobs are found correctly
-print(jobsJson)
+# print(jobsJson)
